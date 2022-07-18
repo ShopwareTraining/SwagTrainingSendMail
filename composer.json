@@ -1,0 +1,40 @@
+{
+  "name": "swag-training/example-send-mail",
+  "description": "Example for sending mail via Shopware",
+  "type": "shopware-platform-plugin",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Acme"
+    }
+  ],
+  "require": {
+    "shopware/core": "~6.4"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Swag\\Training\\SendMail\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "Swag\\Training\\SendMail\\SwagTrainingSendMail",
+    "copyright": "Acme",
+    "label": {
+      "de-DE": "SwagTrainingSendMail",
+      "en-GB": "SwagTrainingSendMail"
+    },
+    "description": {
+      "de-DE": "Some plugin description",
+      "en-GB": "Some plugin description"
+    },
+    "manufacturerLink": {
+      "de-DE": "https://acme.org",
+      "en-GB": "https://acme.org"
+    },
+    "supportLink": {
+      "de-DE": "https://acme.org",
+      "en-GB": "https://acme.org"
+    }
+  }
+}
